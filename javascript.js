@@ -35,7 +35,7 @@ function galeria() {
     var txt = "";
     for (let index = 0; index < kepeim.length; index++) {
         txt += 
-        `<div class="kep" > <img id=" ${index} " src=" ${kepeim[index].eleres} " alt="${kepeim[index].cim}"> </div>`
+        `<div class="kep" > <img id="${index}" src="${kepeim[index].eleres}" alt="${kepeim[index].leiras}"> </div>`
     }
 
     ID("inp").innerHTML = txt;
